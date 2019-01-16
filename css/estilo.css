@@ -1,0 +1,203 @@
+/*Estilo do Site Noticias*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+    
+}
+/*Imagens de Fundo e Logo*/
+#topo{
+    height: 150px;
+    background: url(../imagens/map-minas.png) no-repeat right top;
+    padding-top: 25px;
+    /*border: 1px solid red;*/
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+/*Barra de Navegação*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    background: #006df0;
+    margin-top: 40px;
+    float: left;
+}
+#topo li{
+    float: left;
+}
+#topo ul a{
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left;
+}
+#topo ul .primeiro a{
+    background: none;
+}
+#topo ul a:hover{
+    color: #3000de;
+
+}
+body.home #navegacao a#home,
+body.html #navegacao a#html,
+body.css #navegacao a#css,
+body.js #navegacao a#js,
+body.fronte-end #navegacao a#fronte-end,
+body.inovacoes #navegacao a#inovacoes
+{
+    color: #fff;
+    background: #3000de;
+    cursor: text;
+}
+/*Configuração Estilo das 3 Colunas */
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#duas-colunas #primario{
+    width: 550px;
+}
+#uma-colunas #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    
+}
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+  
+}
+
+/*Caixa*/
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+h2{
+    font-size: 1.1em;
+    background: #25201d;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.caixa-conteudo{
+    background: #e0dfdf;
+    padding: 5px;
+    margin-top: 5px;
+}
+/*Configurações Menus Laterais*/
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display:block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    color: #4c4747;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+/*Formatando Formularios*/
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #006df0;
+    border: 2px solid #3000de;
+}
+/*Formatando Imagens*/
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #f3f3f3;
+}
+
+/*Formatando Cabeçalhos*/
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+    background: #006df0;
+    color: #fff;
+}
+.destaque-lateral h3{
+    background: #3000de;
+    color: #fff;
+}
+/*Lista de Noticias*/
+#lista-atual li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+}
+#lista-atual li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-atual li a{
+    text-decoration: none;
+    color: #000;
+}
+#lista-atual li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #006df0
+}
+#lista-atual li a p{
+    font-size: 0.7em;
+}
+#lista-atual li:hover{
+    background: #eee;
+}
+
+/*Configurações Container Rodape*/
+#container-rodape{
+    background: #25201d;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
